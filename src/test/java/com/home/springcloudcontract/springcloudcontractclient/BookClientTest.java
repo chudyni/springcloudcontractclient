@@ -17,7 +17,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureStubRunner(
-        ids = "com.home.springcloudcontract:spring-cloud-contract-producer:+:stubs:9090",
+//        ids = "com.home.springcloudcontract:spring-cloud-contract-producer:+:stubs:9090",
+        ids = "com.home.springcloudcontract:springcloudcontract:+:stubs:9090",
         stubsMode = StubRunnerProperties.StubsMode.LOCAL
 )
 public class BookClientTest {
